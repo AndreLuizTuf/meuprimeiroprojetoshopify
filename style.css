@@ -10,13 +10,11 @@ body {
 }
 
 .header {
-    background: url('/images/imagem-fundo.svg') no-repeat;
-    background-size: contain;
+    background: url('/images/imagem-fundo.svg') no-repeat center center;
+    background-size: cover;
     text-align: center;
     width: 100%;
     height: auto;
-    /* padding: 10px; */
-    /* color: white; */
     position: relative;
 }
 
@@ -50,9 +48,11 @@ body {
     margin-top: 1rem;
     color: white;
 }
+
 .input-email {
     margin-top: 2rem;
 }
+
 .input1 {
     padding: 0.8rem;
     width: 20rem;
@@ -73,10 +73,8 @@ body {
     border: 1px solid #000;
     border-radius: 9px;
     color: white;
-}
-
-.submit a {
-    color: white;
+    cursor: pointer;
+    text-align: center;
     text-decoration: none;
 }
 
@@ -110,12 +108,13 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    text-align: left;
+    text-align: center;
     margin: 1.4rem 1rem;
 }
 
 .logo-container {
     margin-top: 9rem;
+    text-align: center;
 }
 
 .logo-container img {
@@ -143,6 +142,7 @@ body {
 
 .container-3 {
     margin: 6rem auto;
+    text-align: center;
 }
 
 .head4 {
@@ -187,7 +187,7 @@ body {
     font-weight: 600;
     margin-bottom: 2rem;
     border-bottom: 1px solid rgb(218, 218, 218);
-    padding: 0 1.5rem 1.5rem 0;
+    padding-bottom: 1.5rem;
     position: relative;
     cursor: pointer;
     text-align: left;
@@ -199,7 +199,6 @@ body {
     top: 50%;
     right: 1rem;
     transform: translateY(-50%);
-    right: 0;
     font-size: 1.5rem;
     font-weight: 400;
 }
