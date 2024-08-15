@@ -1,16 +1,13 @@
-* {
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-body {
-    background-color: mintcream;
+    text-align: center;
 }
 
 .header {
-    background: url('/images/imagem-fundo.svg') no-repeat center center;
+    background: url('./images/imagem-fundo.svg') no-repeat center center;
     background-size: cover;
     text-align: center;
     width: 100%;
@@ -114,7 +111,6 @@ body {
 
 .logo-container {
     margin-top: 9rem;
-    text-align: center;
 }
 
 .logo-container img {
@@ -142,7 +138,6 @@ body {
 
 .container-3 {
     margin: 6rem auto;
-    text-align: center;
 }
 
 .head4 {
