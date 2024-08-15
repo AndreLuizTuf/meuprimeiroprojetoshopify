@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: mintcream;
+}
+
+.header {
+    background: url('/images/imagem fundo.svg') no-repeat;
+    background-size: contain;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    /* padding: 10px; */
+    /* color: white; */
+    position: relative;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+
+#logo-1 {
+    width: 13.25rem;
+    height: 6.5625rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-right: 1.875rem;
+}
+
+.head1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 4.375rem;
+    margin: 0 1.5rem;
+    color: white;
+}
+
+.head2 {
+    font-family: 'Roboto', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    color: white;
+}
+.input-email {
+    margin-top: 2rem;
+}
+.input1 {
+    padding: 0.8rem;
+    width: 20rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border: 1px solid lightgrey;
+    border-radius: 12px;
+}
+
+.submit {
+    margin-left: 10px;
+    padding: 0.8rem;
+    width: 10rem;
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 9px;
+}
+
+.submit a {
+    color: white;
+    text-decoration: none;
+}
+
+.sub-text {
+    margin-top: 2rem;
+    font-weight: 300;
+    color: white;
+}
+
+.shopify-svg {
+    margin-top: 2rem;
+    width: 300px;
+}
+
+.sub-text1 {
+    margin-top: 1rem;
+    color: rgb(161, 161, 161);
+    font-size: 1.1rem;
+    font-weight: 400;
+    flex-wrap: wrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.icons-img {
+    width: 3.5rem;
+    height: 3.7rem;
+    margin: 1rem 0;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    margin: 1.4rem 1rem;
+}
+
+.logo-container {
+    margin-top: 9rem;
+}
+
+.logo-container img {
+    padding: .5rem .5rem;
+    width: 111px;
+    height: 53px;
+}
+
+.line {
+    width: 63.063rem;
+    margin: 2rem auto;
+    color: lightsteelblue;
+    opacity: .2;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #008060;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container-3 {
+    margin: 6rem auto;
+}
+
+.head4 {
+    margin: 3.5rem auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
+.foot{
+    text-align: right;
+    margin: 1rem 15rem;
+}
+
+.link1 {
+    text-decoration: none;
+    color: rgb(31, 117, 70);
+    margin: 0 .8rem;
+}
+
+.faq {
+    padding: 50px 20px;
+    background-color: #efefef;
+    text-align: center;
+    margin: 60px 30px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #006341;
+}
+
+.faq-content {
+    margin: 3rem auto;
+    padding: 0 2rem;
+    max-width: 65rem;
+}
+
+.faq-content p {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgb(218, 218, 218);
+    padding: 0 1.5rem 1.5rem 0;
+    position: relative;
+    cursor: pointer;
+    text-align: left;
+}
+
+.faq-content p::after {
+    content: "+";
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    right: 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
