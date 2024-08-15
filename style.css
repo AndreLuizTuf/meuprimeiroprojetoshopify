@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-    background: url('/images/imagem fundo.svg') no-repeat;
+    background: url('/images/imagem-fundo.svg') no-repeat;
     background-size: contain;
     text-align: center;
     width: 100%;
